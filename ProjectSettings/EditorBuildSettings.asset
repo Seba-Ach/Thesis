@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/My Thesis Assets/Ring 1.unity
+    guid: 805aeb700c3c8f34ebc2964d761108ab
   m_configObjects: {}
