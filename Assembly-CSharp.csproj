@@ -53,14 +53,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HPtext.cs" />
      <Compile Include="Assets\Knight\scripts\rotator.cs" />
      <Compile Include="Assets\MusicScriptFairies.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Camera Scripts\CameraFollowing.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Camera Scripts\ThirdPerson_Camera.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Camera Scripts\ThirdPerson_Helper.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Camera Scripts\ThirdPersonCameraMouseInputController.cs" />
+     <Compile Include="Assets\My Thesis Assets\C# Scripts\Player Attributes\Player.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\CameraRaycaster.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\Utility.cs" />
+     <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\RedTeleport.cs" />
+     <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerHealthBar.cs" />
+     <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerManaBar.cs" />
      <Compile Include="Assets\My Thesis Assets\CursorSettings.cs" />
      <None Include="Assets\Fantasy Harp Album - 010118\Notes.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -140,6 +145,7 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Cartoon Temple Building Kit\ReadMe.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
