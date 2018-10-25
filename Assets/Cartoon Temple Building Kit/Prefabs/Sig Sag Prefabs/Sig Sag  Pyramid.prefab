@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000013849398142}
   - component: {fileID: 33000010441261920}
   - component: {fileID: 23000013134676274}
+  - component: {fileID: 65100573776368282}
   m_Layer: 0
   m_Name: Sig Sag  Pyramid
   m_TagString: Untagged
@@ -34,13 +35,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010127456080}
-  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.0000012798595, y: -0.70710707, z: -0.0000012798604, w: 0.7071066}
+  m_LocalPosition: {x: -145.11, y: -0, z: 182.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!23 &23000013134676274
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010127456080}
   m_Mesh: {fileID: 4300000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+--- !u!65 &65100573776368282
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010127456080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000002, y: 6.000007, z: 2.0000236}
+  m_Center: {x: 1.3642404e-12, y: 2.9999964, z: -1.0000104}
