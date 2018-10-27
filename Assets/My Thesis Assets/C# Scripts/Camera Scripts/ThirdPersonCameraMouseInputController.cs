@@ -7,6 +7,7 @@ public class ThirdPersonCameraMouseInputController : MonoBehaviour
     public float MouseYSensitivity = 5f;                    // Mouse Y sensitivity.
     public float MouseWheelSensitivity = 5f;                // Mouse wheel/scroll sensitivity.
     CursorLockMode wantedMode;
+    public static bool loadingScrn=false;
 
 
     private void Start()
@@ -33,7 +34,10 @@ public class ThirdPersonCameraMouseInputController : MonoBehaviour
         }
         else {
             Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            if (!loadingScrn)
+            {
+                Cursor.visible = true;
+            }
         }
         // Clamp (limit) mouse Y rotation. Uses thirdPersonCameraHelper.cs.
         _thirdPersonCamera.MouseY = ThirdPerson_Helper.ClampingAngle(_thirdPersonCamera.MouseY,

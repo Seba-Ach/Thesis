@@ -17,22 +17,27 @@ public class RedTeleport : MonoBehaviour {
 	
 	void OnTriggerStay (Collider other) {
         ui.SetActive(true);
-        if((other.gameObject.tag == "Player")&& Input.GetKeyDown(KeyCode.E)){
+        if((other.gameObject.tag == "Player") && Input.GetKeyDown(KeyCode.E)){
+            ThirdPersonCameraMouseInputController.loadingScrn = true;
+            Cursor.visible = false;
             TeleportPromted();
         }
 	}
 
     void TeleportPromted()
-    {
+    { 
         ui.SetActive(false);
         loadingScrn.SetActive(true);
         Invoke("PosChanger", 2);
-        loadingScrn.SetActive(false);
+        
     }
 
     void PosChanger()
     {
         objTeleported.transform.position = destLoc.transform.position;
+        loadingScrn.SetActive(false);
+        ThirdPersonCameraMouseInputController.loadingScrn = false;
+        Cursor.visible = true;
     }
 
     void OnTriggerExit()
