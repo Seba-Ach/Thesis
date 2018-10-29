@@ -63,7 +63,7 @@
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Player Attributes\Player.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\CameraRaycaster.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\Utility.cs" />
-     <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\RedTeleport.cs" />
+     <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\Teleport.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerHealthBar.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerManaBar.cs" />
      <Compile Include="Assets\My Thesis Assets\CursorSettings.cs" />
@@ -114,6 +114,7 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\RainEntertainment\FantasyMonster2\Priest Pack\readMe.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
@@ -121,6 +122,7 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\RainEntertainment\FantasyMonster\DarkDragon\readMe.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />

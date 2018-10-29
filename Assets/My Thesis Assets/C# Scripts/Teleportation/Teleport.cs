@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedTeleport : MonoBehaviour {
+public class Teleport : MonoBehaviour {
 
     public GameObject ui;
     public GameObject loadingScrn;
