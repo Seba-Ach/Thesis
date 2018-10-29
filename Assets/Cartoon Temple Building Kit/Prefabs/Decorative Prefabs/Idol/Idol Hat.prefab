@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000010908994246}
   - component: {fileID: 33000010556356578}
   - component: {fileID: 23000011154790682}
+  - component: {fileID: 65302524906762368}
   m_Layer: 0
   m_Name: Idol Hat
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010619226596}
   m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -143.02, y: 0, z: 227}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010619226596}
   m_Mesh: {fileID: 4300000, guid: 122089aa6f199db4e970a0a3f2d624a1, type: 3}
+--- !u!65 &65302524906762368
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010619226596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0066714, y: 2.0000064, z: 4.0066867}
+  m_Center: {x: 0, y: 0.9999998, z: -0.0000035762787}

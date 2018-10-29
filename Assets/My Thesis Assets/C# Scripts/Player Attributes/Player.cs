@@ -9,6 +9,14 @@ public class Player : MonoBehaviour {
     float currentHP = 100f;
     float currentMana = 500f;
 
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape) && Input.GetKey(KeyCode.LeftShift))
+        {
+            Application.Quit();
+        }
+    }
+
     public float getHPPercent
     {
         get
