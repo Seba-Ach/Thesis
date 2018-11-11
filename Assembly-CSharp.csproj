@@ -64,6 +64,7 @@
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\CameraRaycaster.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\Utility.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\Teleport.cs" />
+     <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\TeleportWithoutLoading.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerHealthBar.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerManaBar.cs" />
      <Compile Include="Assets\My Thesis Assets\CursorSettings.cs" />
@@ -89,7 +90,6 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
-     <None Include="Assets\BloodMageJonas\HairShader.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Readme.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />

@@ -46,14 +46,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private void FixedUpdate()
         {
             // read inputs
-            float h = CrossPlatformInputManager.GetAxis("Horizontal")/1.5f; // divide by 3 so as side movement isnt faster than forward as it adds the vectors below 
+            float h = CrossPlatformInputManager.GetAxis("Horizontal")/1.5f; // divide by 1.5 so as side movement isnt faster than forward as it adds the vectors below 
             float v = CrossPlatformInputManager.GetAxis("Vertical")/1.5f; //slow down to a prefered pace
             bool crouch = Input.GetKey(KeyCode.C);
 
             // calculate move direction to pass to character
             // calculate camera relative direction to move:
             m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
-           // m_Move = v * m_CamForward + h * m_Cam.right; //issues with W+D or W+A (forward vector added twice)
+           
             if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
             {
                 m_Move = v * m_CamForward + (h *m_Cam.right) - (m_Cam.forward - m_CamForward) ;

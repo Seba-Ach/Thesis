@@ -5,6 +5,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	[RequireComponent(typeof(Rigidbody))]
 	[RequireComponent(typeof(CapsuleCollider))]
 	[RequireComponent(typeof(Animator))]
+
 	public class ThirdPersonCharacter : MonoBehaviour
 	{
 		[SerializeField] float m_MovingTurnSpeed = 360;
@@ -65,7 +66,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 			else
 			{
-				HandleAirborneMovement();
+                HandleAirborneMovement();
 			}
 
 			ScaleCapsuleForCrouching(crouch);
@@ -158,9 +159,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			// apply extra gravity from multiplier:
 			Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
 			m_Rigidbody.AddForce(extraGravityForce);
-
 			m_GroundCheckDistance = m_Rigidbody.velocity.y < 0 ? m_OrigGroundCheckDistance : 0.01f;
-		}
+        }
 
 
 		void HandleGroundedMovement(bool crouch, bool jump)
