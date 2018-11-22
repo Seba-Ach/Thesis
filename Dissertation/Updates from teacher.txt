@@ -1,0 +1,23 @@
+19th of Nov:
+
+	Introduction should include: original goal, why i have chosen topic like this, //analysis of the spectrum of games,
+//identify problems to solve, //identify the proper technology to solve them, blueprint design, broader picture, what why and whats necessary
+
+	Chapter 2: wide spectrum of gaming, everything i know about games, their platforms and branches, general stuff, correlation between that and my work,
+analyze 2-3 similar applications on some specific criteria (include screenshots) summary of each game using a table, last column for my application head to head, 
+what i am vs what exists. paragraph of conclusions of what i focused on and what what aspects
+
+	Chapter 3: User Experience, buildings similar to pwr, what each portal symbolizes and its corresponding meaning etc
+
+	Chapter 4: implementation, technology why i chose unity, seminar 1 sobecki
+
+	Chapter 5: Evaluation of achievements
+
+	Chapter 6: conclusions (0.5-1 page)
+
+
+	Chapter 2 sub sections:
+		1) the video gaming industry = how its growing and the revenue each platform makes as well as the big companies
+		2) the three platforms and the history revenue populat games etc
+		3) the different genres and how they evolved
+		4) analysis of 2 major games similar to mine
