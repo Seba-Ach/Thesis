@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/My Thesis Assets/SplashScreen.unity
+    guid: 31549f014086d1d47a8fc820c99d95cb
+  - enabled: 1
     path: Assets/My Thesis Assets/Ring 1.unity
     guid: 805aeb700c3c8f34ebc2964d761108ab
   m_configObjects: {}

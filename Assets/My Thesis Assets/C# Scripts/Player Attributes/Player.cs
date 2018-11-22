@@ -11,7 +11,7 @@ public class Player : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape) && Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
         }

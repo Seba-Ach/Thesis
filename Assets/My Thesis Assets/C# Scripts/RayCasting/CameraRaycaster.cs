@@ -18,6 +18,7 @@ public class CameraRaycaster : MonoBehaviour
     Layer m_layerHit;
     public Layer layerHit
     {
+        
         get { return m_layerHit; }
     }
 
@@ -32,8 +33,10 @@ public class CameraRaycaster : MonoBehaviour
         foreach (Layer layer in layerPriorities)
         {
             var hit = RaycastForLayer(layer);
+            Debug.Log(layer);
             if (hit.HasValue)
             {
+                
                 m_hit = hit.Value;
                 m_layerHit = layer;
                 return;
