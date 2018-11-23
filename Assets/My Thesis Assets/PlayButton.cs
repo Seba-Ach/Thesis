@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour {
+
    
+
     public void PlayButtonPressed()
     {
         SceneManager.LoadScene("Ring 1");
@@ -14,5 +16,10 @@ public class PlayButton : MonoBehaviour {
     {
         Application.Quit();
     }
-    
+
+  
 }
+
+
+    
+ 
