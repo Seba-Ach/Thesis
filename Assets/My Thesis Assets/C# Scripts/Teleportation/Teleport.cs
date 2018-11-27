@@ -8,6 +8,7 @@ public class Teleport : MonoBehaviour {
     public GameObject loadingScrn;
     public GameObject objTeleported;
     public Transform destLoc;
+    
 
 	// Use this for initialization
 	void Start () {

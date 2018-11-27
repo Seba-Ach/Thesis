@@ -8,12 +8,12 @@ public class PlayerManaBar : MonoBehaviour
 {
 
     RawImage manaBarRawImage;
-    Player player;
+    PlayerAttributes player;
 
     // Use this for initialization
     void Start()
     {
-        player = FindObjectOfType<Player>();
+        player = FindObjectOfType<PlayerAttributes>();
         manaBarRawImage = GetComponent<RawImage>();
     }
 

@@ -21,3 +21,7 @@ what i am vs what exists. paragraph of conclusions of what i focused on and what
 		2) the three platforms and the history, revenue, populat games etc
 		3) the different genres and how they evolved
 		4) analysis of 2 major games similar to mine
+			talk about: storyline and genre, development time and team size, expansions/sequels, success/revenue
+			analysis of each game based on given criteria: game genre, game visual theme, game sound/music, core loop, user interface, suspense, 
+				story, real world simulation
+			

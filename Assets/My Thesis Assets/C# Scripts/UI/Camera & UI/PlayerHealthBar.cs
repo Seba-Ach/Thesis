@@ -8,12 +8,12 @@ public class PlayerHealthBar : MonoBehaviour
 {
 
     RawImage healthBarRawImage;
-    Player player;
+    PlayerAttributes player;
 
     // Use this for initialization
     void Start()
     {
-        player = FindObjectOfType<Player>();
+        player = FindObjectOfType<PlayerAttributes>();
         healthBarRawImage = GetComponent<RawImage>();
     }
 
