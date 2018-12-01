@@ -24,4 +24,5 @@ what i am vs what exists. paragraph of conclusions of what i focused on and what
 			talk about: storyline and genre, development time and team size, expansions/sequels, success/revenue
 			analysis of each game based on given criteria: game genre, game visual theme, game sound/music, core loop, user interface, suspense, 
 				story, real world simulation
+			table of comparisons and criteria: camera perspective, story progression, character progression, progression difficulty, rewarding system, (4x5)
 			

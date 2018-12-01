@@ -41,10 +41,7 @@ public class PlayerAttributes: MonoBehaviour {
             currentMana = 0;
         }
 
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
+        
 
         if(currentHP == 0)
         {
