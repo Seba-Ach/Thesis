@@ -75,6 +75,7 @@
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\CameraRaycaster.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\RayCasting\Utility.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\Teleport.cs" />
+     <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\TeleportToFinal.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\Teleportation\TeleportWithoutLoading.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerHealthBar.cs" />
      <Compile Include="Assets\My Thesis Assets\C# Scripts\UI\Camera &amp; UI\PlayerManaBar.cs" />
@@ -106,6 +107,7 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Room\Settings\Note.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
