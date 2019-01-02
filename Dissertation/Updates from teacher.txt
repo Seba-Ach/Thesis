@@ -31,6 +31,6 @@ what i am vs what exists. paragraph of conclusions of what i focused on and what
 	Chapter 3 sub sections:
 		1) introduction to user experience in video games
 		2) user experience in medieval politechnika
-			third person, music, UI in one place, buildings similar to pwr, movement animation, portals significance
+			third person, buildings similar to pwr, movement animation, portals significance, UI in one place, music
 				Third person: introduction, how it is used in other games, how it is advantageous in my game, its overall advantages over other perspectives.
 		3) $$$
