@@ -41,6 +41,12 @@ public class PlayerAttributes: MonoBehaviour {
             currentMana = 0;
         }
 
+        if(currentHP >100)
+        {
+            currentHP = 100;
+        }
+
+
         
 
         if(currentHP == 0)

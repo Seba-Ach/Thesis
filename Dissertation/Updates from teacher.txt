@@ -34,3 +34,21 @@ what i am vs what exists. paragraph of conclusions of what i focused on and what
 			third person, buildings similar to pwr, movement animation, portals significance, UI in one place, music
 				Third person: introduction, how it is used in other games, how it is advantageous in my game, its overall advantages over other perspectives.
 		3) $$$
+
+	Chapter 4 sub sections:
+		4.1 Unity overall look, how to use the tool and what i learned
+		//4.2 The first scene to start or quit game
+		4.2 ThirdPersonController. Changing the mesh of character and its capsule as well as movement speed and everything
+		4.3 Explaining player attributes and different states scripts
+		4.4 Red portal explanation of how everything works
+		4.5 Blue and Green portal explained
+		4.6 Raycasting
+		4.7 Displaying tooltips
+		4.8 Photoshop
+		
+
+
+
+
+
+
