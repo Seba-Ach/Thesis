@@ -20,7 +20,7 @@ public class SpellsCasted : MonoBehaviour{
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKey(KeyCode.F) && !(counter<3))
         {
             fireAttack.gameObject.SetActive(true);
             anim.Play("CastingAnim");

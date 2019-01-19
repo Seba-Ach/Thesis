@@ -26,7 +26,6 @@ public class SpellInteractOffFire : MonoBehaviour
     {
         anims.Play("Dead");
         fires.SetActive(false);
-        cap.enabled = false;
     }
 
 }

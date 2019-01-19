@@ -41,11 +41,54 @@ what i am vs what exists. paragraph of conclusions of what i focused on and what
 		4.2 ThirdPersonController. Changing the mesh of character and its capsule as well as movement speed and everything
 		4.3 Explaining player attributes and different states scripts
 		4.4 Red portal explanation of how everything works
-		4.5 Blue and Green portal explained
+		4.5 Blue and Green portal explained //Teleportation explained
 		4.6 Raycasting
 		4.7 Displaying tooltips
-		4.8 Photoshop
+
+		4.8 Creating Canvas, adding pictures and Photoshop
+
+	Chapter 5 Testing
+
+	Chapter 6 Evaluation of achievements
 		
+		6.1 Table of achievements
+			Table 1:
+				column 1: what I wanted to achieve
+				column 2: what I did achieve
+				column 3: how i achieved it
+
+				What I wanted to achieve:
+					Tell a story
+					some challenges
+					smart usage of game mechanics
+					combine university experience with game
+					combat system
+
+		7.0 Conclusion
+			What I have learned in this process
+			What I have achieved and how happy I am with that
+			
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
