@@ -1,0 +1,37 @@
+1.	Introduction 									4
+1.1 Target goal of application								4
+1.2 Why I have chosen such a topic							5
+1.3 Thesis Structure									5
+
+2.	The state of the art								6
+2.1	The video game industry							6
+2.2	The revenue									6
+2.3	Different platforms								9
+2.4	Similar applications								11
+2.4.1	Assassin’s Creed								11
+2.4.2	Portal 2									12
+2.4.3	World of Warcraft								13
+2.5	Comparison of similar applications						16
+
+3.	User Experience								17
+3.1	Camera Perspective								17
+3.2	Buildings similarity with the University					18
+3.3	Portals and their significance							19
+3.4	RPG user experience elements						20
+
+4.	Design and Implementation						21
+4.1	Unity overview								21
+4.2	Third person controller mesh							22
+4.3	Third person controller scripts						23
+4.4	Red portal challenge								27
+4.5	Teleportation									28
+4.6	Blue portal challenge								29
+4.7	Ray casting									30
+4.8	Hints										34
+4.9	Creating canvas and pictures							36
+
+5.	Testing										37
+
+6.	Evaluation of achievements						38
+
+7.	Conclusion									40
