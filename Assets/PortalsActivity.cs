@@ -12,6 +12,7 @@ public class PortalsActivity : MonoBehaviour {
     public GameObject greenring;
     public GameObject bluering;
 
+    public GameObject finalPort;
 
     // Use this for initialization
     void Start () {
@@ -22,6 +23,8 @@ public class PortalsActivity : MonoBehaviour {
         redring.SetActive(false);
         greenring.SetActive(false);
         bluering.SetActive(false);
+
+        finalPort.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -42,6 +45,11 @@ public class PortalsActivity : MonoBehaviour {
         {
             blueport.SetActive(false);
             bluering.SetActive(true);
+        }
+
+        if(DifferentStates.redDone && DifferentStates.greenDone && DifferentStates.blueDone)
+        {
+            finalPort.SetActive(true);
         }
     }
 }

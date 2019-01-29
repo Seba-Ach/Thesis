@@ -65,6 +65,7 @@
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
      <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\FarewellPlayer.cs" />
      <Compile Include="Assets\HPtext.cs" />
      <Compile Include="Assets\Knight\scripts\rotator.cs" />
      <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
@@ -99,6 +100,7 @@
      <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
      <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
      <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
+     <Compile Include="Assets\RedPortHints.cs" />
      <Compile Include="Assets\SpellInteract.cs" />
      <Compile Include="Assets\SpellInteractOffFire.cs" />
      <Compile Include="Assets\SpellsCasted.cs" />
