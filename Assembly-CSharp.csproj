@@ -66,6 +66,7 @@
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
      <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\FarewellPlayer.cs" />
+     <Compile Include="Assets\FinishItAll.cs" />
      <Compile Include="Assets\HPtext.cs" />
      <Compile Include="Assets\Knight\scripts\rotator.cs" />
      <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />

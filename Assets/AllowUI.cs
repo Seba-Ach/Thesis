@@ -15,7 +15,7 @@ public class AllowUI : MonoBehaviour {
 
     // Update is called once per frame
     void OnTriggerStay(Collider other) { 
-        if ((other.gameObject.tag == "Player") && !(DifferentStates.blueDone && DifferentStates.greenDone && DifferentStates.redDone))
+        if ((other.gameObject.tag == "Player") && !(DifferentStates.blueDone || DifferentStates.greenDone || DifferentStates.redDone))
         {
             instructions.SetActive(true);
         }
